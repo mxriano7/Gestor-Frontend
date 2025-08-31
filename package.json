@@ -1,0 +1,27 @@
+{
+  "name": "interface-projetos",
+  "version": "1.0.0",
+  "description": "Frontend do Sistema de Gestão de Projetos",
+  "scripts": {
+    "start": "parcel src/index.html --port 3000",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.1",
+    "axios": "^1.11.0",
+    "bootstrap": "^5.3.8",
+    "date-fns": "^4.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.9.3"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "proxy": "http://localhost:8080"
+}
